@@ -1,3 +1,9 @@
+img{
+    width: 100%;
+}
+.my-width-bars{
+    width: 150px;
+}
 @media screen and (max-width:768px){
     .img-container{
         width: 50% !important;
