@@ -7,6 +7,13 @@ img{
 .button{
     width: 120px;
 }
+.my-footer-top-bg{
+    background-color: #3a546d;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
 @media screen and (max-width:768px){
     .img-container{
         width: 50% !important;
