@@ -4,6 +4,9 @@ img{
 .my-width-bars{
     width: 150px;
 }
+.button{
+    width: 120px;
+}
 @media screen and (max-width:768px){
     .img-container{
         width: 50% !important;
