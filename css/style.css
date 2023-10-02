@@ -1,11 +1,11 @@
-img{
-    width: 100%;
+.my-bg-teal{
+    background-color: var(--bs-teal);
+}
+#hero img{
+    width: 250px;
 }
 .my-width-bars{
-    width: 150px;
-}
-.button{
-    width: 120px;
+    width: 15%;
 }
 .my-footer-top-bg{
     background-color: #3a546d;
@@ -14,11 +14,48 @@ img{
     width: 30px;
     height: 30px;
 }
-@media screen and (max-width:768px){
-    .img-container{
-        width: 50% !important;
-    }
-    .my-width-bars{
-        width: 70px;
-    }
+#portfolio img{
+    width: 100%;
+    display: block;
+}
+#top-footer .btn.btn-outline-light{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-image-container{
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.my-image-container:hover:after{
+    content: '+';
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #20c9967c;
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+#about .btn.btn-outline-light:hover{
+    color: red;
+}
+.start-bootstrap{
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+.start-bootstrap.text-success:hover{
+    color: greenyellow !important;
+    text-decoration: underline;
 }
